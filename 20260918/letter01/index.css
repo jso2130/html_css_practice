@@ -7,16 +7,16 @@
     overflow: hidden;
 }
 
-#wrap > ul > li {
+#wrap > ul > li{
     float: left;
 }
 
 /*편지 목록 시작*/
-#wrap > ul > li.list {
+#wrap > ul > li.list{
     width: 300px;
 }
 
-#wrap > ul > li.list > ul {
+#wrap > ul > li.list > ul{
     width: 270px;
     padding: 10px;
     border: 1px solid #dadada;
@@ -41,11 +41,11 @@
 /*편지 목록 끝*/
 
 /*편지지 시작*/
-#wrap > ul > li.letter {
+#wrap > ul > li.letter{
     width: 900px;
 }
 
-#wrap > ul > li.letter > div.letter_wrap {
+#wrap > ul > li.letter > div.letter_wrap{
     padding: 20px 30px;
     border: 1px solid #dadada;
     border-radius: 5px;
@@ -80,4 +80,3 @@ wrap > ul > li.letter div.from{
     margin-top: 50px;
 }
 /*편지지 끝*/
-
