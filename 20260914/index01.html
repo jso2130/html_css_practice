@@ -2,21 +2,79 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>INDEX01</title>
+        <title>My Home</title>
     </head>
     <body>
         
-    <form
-    action="http://www.naver.com/member/signup_confirm"
-    method="post">
-    </form>
-        
-        <img src="sn.png" width="50" ><br>
-        GENDER
-        <input type="radio" name="GENDER">Woman
-        <input type="radio" name="GENDER">man<br>
-        <input type="submit" value="SIGN-UP">
-        <input type="reset" value="reset">
-        
+        <!-- 텍스트 관련 태그 -->
+         <!-- 제목 -->
+        <h1>Hello</h1>
+        <h2>Hello</h2>
+        <h3>Hello</h3>
+        <h4>Hello</h4>
+        <h5>Hello</h5>
+        <h6>Hello</h6>
+
+        <!-- 문단 -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, necessitatibus. Voluptas inventore, cupiditate, nemo repellendus consequuntur nam enim assumenda dicta modi, corrupti aliquid? Vitae dignissimos quaerat facilis, eos nesciunt atque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nisi porro quaerat nemo, inventore aut maiores optio voluptatum soluta laboriosam libero velit excepturi laudantium exercitationem voluptate? Quisquam labore ipsum facilis!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+           <br><br><br><br><br>
+           Dicta beatae quos hic inventore cumque corporis voluptatum magni ipsa, quae saepe aperiam. Cumque voluptatibus pariatur mollitia quod similique perferendis eaque quos.</p>
+
+        <!-- 개행 -->
+        <br><br>
+        <h3>Hello</h3>
+
+         <!-- 가로 구분선 -->
+        <hr>
+        <h3>Hello</h3>
+
+        <!-- 
+            이미지 삽입 
+            ./  : 현재 디렉터리
+            ../  : 상위 디렉터리
+         -->
+        <img 
+            src="../img/bts.jpg" 
+            alt="이 그림은 BTS입니다." 
+            title="BTS">
+
+        <!-- 양식 태그 -->
+        <form 
+            action="http://www.naver.com/member/signup_confirm" 
+            method="post">
+            
+            ID: <input type="text" placeholder="Input new Member ID"> <br>
+            PW: <input type="password" placeholder="Input new Member PW"> <br>
+            MAIL: <input type="email" placeholder="Input new Member MAIL"> <br>
+            
+            <select>
+                <option> --- 국가 선택 --- </option>
+                <option> 한국 </option>
+                <option> 미국 </option>
+                <option> 영국 </option>
+            </select>
+            
+            <br>
+            
+            HOBBY: 
+            <input type="checkbox" name="hobby">축구
+            <input type="checkbox" name="hobby">농구
+            <input type="checkbox" name="hobby">배구
+            <input type="checkbox" name="hobby">수구
+            <input type="checkbox" name="hobby">야구 
+            <br>
+            GENDER:
+            <input type="radio" name="gender">Woman
+            <input type="radio" name="gender">Man
+            <br>
+            <input type="submit" value="SIGN-UP">
+            <input type="reset" value="RESET">
+            
+        </form>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
     </body>
 </html>
