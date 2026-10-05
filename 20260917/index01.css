@@ -1,44 +1,44 @@
 p{
     color: #f00;
-
 }
 
 /*
-클래스 선택자
+    3. 클래스 선택자
 */
-
-.news1{
+.news02{
     color: #00f;
 }
 
-/*
-ID 선택자
-*/
+.news01{
+    color: #000;
+}
 
+/*
+    4. ID 선택자
+*/
 #novel{
     color: #0ff;
 }
 
 /*
-속성 선택자
+    5. 속성 선택자
 */
+input{
+    color: #f00;
+}
 
-input[type="text"]{
-    color:#00f;
+input[type='password']{
+    color: #00f;
 }
 
 p[id='novel']{
-
+    color: #f00;
 }
 
 input.idpw{
     border: 1px solid #ccc;
     outline: none;
     width: 300px;
-    padding: 11px;
+    padding: 20px;
     border-radius: 10px;
 }
-
-/*
-자손/후손 선택자
-*/
