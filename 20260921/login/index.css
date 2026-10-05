@@ -4,9 +4,8 @@
     text-align: center;
 }
 
-
 /*다국어*/
-#wrap div.language {
+#wrap div.language{
     text-align: right;
 }
 
@@ -16,15 +15,13 @@
     border-radius: 3px;
 }
 
-
 /*로고*/
 #wrap div.logo{
     margin: 60px 0px 35px 0px;
 }
 
-
 /*로그인 폼*/
-#wrap div.login_form {
+#wrap div.login_form{
     width: 492px;
     margin: 0 auto;
     border: 1px solid #dadada;
@@ -32,7 +29,7 @@
     padding: 20px;
 }
 
-#wrap div.login_form ul {
+#wrap div.login_form ul{
     width: 450px;
     margin: 0 auto;
     padding: 0 ;
@@ -58,7 +55,7 @@
     cursor: pointer;
 }
 
-#wrap div.login_form > input {
+#wrap div.login_form > input{
     width: 450px;
     border: 1px solid #dadada;
     padding: 15px 20px;
@@ -75,7 +72,7 @@
     border-radius: 0 0 5px 5px;
 }
 
-#wrap div.login_form > div {
+#wrap div.login_form > div{
     width: 450px;
     margin: 15px auto;
     text-align: left;
@@ -95,7 +92,6 @@
     padding: 10px 0;
     cursor: pointer;
 }
-
 
 /*회원정보 찾기, 회원가입*/
 #wrap div.find_member{
