@@ -1,4 +1,3 @@
-
 #wrap{
     width: 800px;
     border: 1px solid #dadada;
@@ -8,12 +7,12 @@
     box-shadow: 3px 3px 3px #e0e0e0; 
 }
 
-#wrap div.to {
+#wrap div.to{
     font-style: italic;
     margin-bottom: 50px;
 }
 
-#wrap div.head {
+#wrap div.head{
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -22,16 +21,16 @@
     margin-bottom: 20px;
 }
 
-#wrap div.body {
+#wrap div.body{
     width: 90%;
     margin: 0 auto;
 }
 
-#wrap div.body p {
+#wrap div.body p{
     margin: 20px 0;
 }
 
-#wrap div.from {
+#wrap div.from{
     font-style: italic;
     text-align: right;
     margin-top: 50px;
