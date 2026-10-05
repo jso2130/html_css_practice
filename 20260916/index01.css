@@ -1,29 +1,25 @@
 b{
     color:#00ff00;
 }
+
 p{
     color:#0000ff;
 }
 
-
 /*
 전체 선택자
 */
-
 *{
     font-weight: bold;
 }
 
-
 /*
 태그 선택자
 */
-
 div{
     color: #ff0;
     font-weight: bold;
 }
-
 
 /*
 클래스 선택자
@@ -51,10 +47,8 @@ ID이름은 무조건 1개여야만 한다.
 속성 선택자
 :html tag의 속성을 이용해서 element을 선택하는 선택자이다.
 */
-
 input[type='text']{
     width:200px;
     color: #f00;
     font-size: 2em;
 }
-
