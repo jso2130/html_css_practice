@@ -5,12 +5,12 @@
     padding: 40px 0;
 }
 
-#wrap div.special{
+#wrap div.welcome{
     height: 40px;
     line-height: 40px;
     text-align: center;
     font-weight: bold;
-    color: #98f3cf;
+    color:#98f3cf;
 }
 
 #wrap div.title{
@@ -30,11 +30,12 @@
 }
 
 #wrap div.design li.sale{
-    width: 250px; height: 230px;
+    width: 260px;
+    height: 230px;
 }
 
 #wrap div.design li.sale div:nth-child(1){
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-size: 5em;
     font-weight: bold;
@@ -46,7 +47,8 @@
 }
 
 #wrap div.design li.gap{
-    width: 1px; height: 230px;
+    width: 1px; 
+    height: 230px;
     background-color: #dadada;
 }
 
@@ -58,18 +60,24 @@
 
 #wrap div.design div.hole_left{
     position: absolute;
-    width: 40px; height: 40px;
+    top: 90px;
+    left: -20px;
+    width: 40px; 
+    height: 40px;
     background-color: #2545b2;
     border-radius: 20px;
-    top: 90px; left: -20px;
+    
 }
 
 #wrap div.design div.hole_right{
     position: absolute;
-    width: 40px; height: 40px;
+    top: 90px;
+    right: -20px;
+    width: 40px; 
+    height: 40px;
     background-color: #2545b2;
     border-radius: 20px;
-    top: 90px; right: -20px;
+    
 }
 
 #wrap div.txt{
@@ -78,4 +86,5 @@
     font-size: 1.1em;
     color: rgba(255, 255, 255, .6);
     line-height: 1.5em;
+
 }
