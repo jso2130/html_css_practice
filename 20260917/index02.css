@@ -15,7 +15,7 @@ div > p{
 /*
 동위 선택자
 */
-h2 + p {
+h2 + p{
     color: #00f;
 }
 
@@ -26,8 +26,7 @@ h2 ~ p{
 /*
 반응 선택자
 */
-
-a {
+a{
     text-decoration: none;
     color: #242424;
 }
@@ -36,7 +35,7 @@ a:hover{
     text-decoration: underline;
 }
 
-input {
+input{
     width: 300px;
     padding: 10px;
     color: #f00;
@@ -44,6 +43,7 @@ input {
     font-weight: bold;
     border-radius: 5px;
 }
+
 input:focus{
     background-color: #38a0ad;
 }
